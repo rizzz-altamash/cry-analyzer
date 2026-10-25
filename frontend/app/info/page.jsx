@@ -114,7 +114,7 @@ export default function ModelInfoPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden border-b border-slate-800/80 bg-gradient-to-b from-slate-900/60 to-slate-950 py-12">
+      <section className="relative overflow-hidden border-b border-slate-800/80 bg-linear-to-b from-slate-900/60 to-slate-950 py-12">
         <div className="absolute top-0 right-1/4 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none" />
         <div className="mx-auto max-w-6xl px-6">
           <div className="max-w-3xl">
@@ -264,7 +264,7 @@ export default function ModelInfoPage() {
               </div>
 
               {/* Fusion & Classification Head */}
-              <div className="mt-8 rounded-xl border border-cyan-800/60 bg-gradient-to-r from-cyan-950/30 via-slate-900 to-blue-950/30 p-6">
+              <div className="mt-8 rounded-xl border border-cyan-800/60 bg-linear-to-r from-cyan-950/30 via-slate-900 to-blue-950/30 p-6">
                 <div className="flex items-center justify-between pb-3 border-b border-slate-800 mb-4">
                   <h3 className="font-bold text-white text-sm uppercase tracking-wider flex items-center gap-2">
                     <GitMerge className="h-4 w-4 text-cyan-400" />
