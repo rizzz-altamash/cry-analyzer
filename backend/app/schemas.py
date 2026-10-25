@@ -1,22 +1,4 @@
-# # app/schemas.py 
-# from pydantic import BaseModel, Field
-
-# class AudioMetadata(BaseModel):
-#     original_duration_seconds: float
-#     target_sample_rate: int
-#     features_used: str
-#     feature_dimension: int
-#     pitch_mean_hz: float
-
-# class PredictionResponse(BaseModel):
-#     has_sepsis: bool = Field(..., description="True if sepsis is detected, False otherwise")
-#     probability: float = Field(..., ge=0.0, le=1.0, description="Raw prediction probability")
-#     threshold_applied: float = Field(..., description="Decision boundary used")
-#     risk_level: str = Field(..., description="Clinical risk interpretation")
-#     metadata: AudioMetadata
-
-
-
+# app/schemas.py 
 from pydantic import BaseModel, Field
 from typing import List
 
