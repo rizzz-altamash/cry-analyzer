@@ -90,5 +90,6 @@ async def predict_audio(file: UploadFile = File(...)):
 async def health_check():
     return {
         "status": "healthy",
-        "models_loaded": list(model_service.models.keys())
+        "available_pipelines": model_service.available_pipelines,
+        "model_loading": "on-demand",
     }
